@@ -1,0 +1,1 @@
+// The reference screen is static, so no JavaScript interaction is needed.
