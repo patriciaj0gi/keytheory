@@ -110,6 +110,25 @@ body {
   font-weight: 700;
 }
 
+.language-toggle {
+  min-width: 36px;
+  padding: 6px 7px;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.language-toggle:hover {
+  border-color: var(--green);
+  color: var(--green);
+}
+
 .hero {
   position: relative;
   display: grid;
@@ -462,6 +481,7 @@ body {
 .primary-action:focus-visible,
 .nav-link:focus-visible,
 .practice-link:focus-visible,
+.language-toggle:focus-visible,
 .brand:focus-visible {
   outline: 2px solid var(--green);
   outline-offset: 4px;
